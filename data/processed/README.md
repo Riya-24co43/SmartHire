@@ -10,6 +10,15 @@ Place the file in this folder:
 data/processed/cleaned_jobs.csv
 ```
 
-The dataset is generated from the job listing dataset during the data preparation stage.
+The file is generated from the raw job listing dataset during the data preparation stage.
 
-Run `01_data_preparation.ipynb` to reproduce the processed dataset.
+To reproduce the processed dataset:
+
+1. Place the raw job listing dataset in the appropriate `data/raw/` folder.
+2. Open `notebooks/01_data_preparation.ipynb`.
+3. Run the notebook.
+4. The cleaned dataset will be saved as:
+
+```text
+data/processed/cleaned_jobs.csv
+```
